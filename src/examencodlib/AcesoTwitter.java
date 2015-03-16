@@ -31,13 +31,8 @@ public class AcesoTwitter {
      * Constructor, da acceso a nuestra cuenta en twitter.
      */ 
     public AcesoTwitter() {
-        /*
-        cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("NkvozDqjKCytO9gasFi2CClHP")
-                .setOAuthConsumerSecret("i4K8l4aw3gWJwKU7unAg8flYQ1trf4gLIytbuh8ys4wVSDpeV6")
-                .setOAuthAccessToken("3055204857-FWSLAe2lGRONftA76dlLYVJ06WnK5XulciQigYq")
-                .setOAuthAccessTokenSecret("LTS4udyKZWJvTE3vIUgdag6QxH9AfPWziyoFQosKNAbIq");
-        twitter = new TwitterFactory(cb.build()).getInstance();*/
+        
+        twitter = new TwitterFactory(cb.build()).getInstance();
     }
     
     /**
