@@ -32,7 +32,7 @@ public class AcesoTwitter {
      */ 
     public AcesoTwitter() {
         
-        twitter = new TwitterFactory(cb.build()).getInstance();
+        twitter = new TwitterFactory().getInstance();
     }
     
     /**
